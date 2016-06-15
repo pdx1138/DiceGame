@@ -1,0 +1,10 @@
+// main.cpp
+// 
+// Main program that will implement the various Dice Game Classes
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include "main.h"
+
+int main(int argc, char *argv[]) {
+	return Game::GetInstance()->RunDiceGame();
+}
