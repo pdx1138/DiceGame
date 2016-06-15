@@ -1,2 +1,14 @@
-﻿  Utility.cpp
-  tyrrellJustin_H5G_ProgrammingTest.vcxproj -> C:\Users\Justin\Jobs\High5Games\ProgrammingTest\tyrrellJustin_H5G_ProgrammingTest\Debug\tyrrellJustin_H5G_ProgrammingTest.exe
+﻿  Bag.cpp
+  Generating Code...
+c:\users\justin\repositories\dicegame\tyrrelljustin_h5g_programmingtest\utility\linkedlist.h(290): warning C4172: returning address of local variable or temporary
+  Compiling...
+  main.cpp
+  Utility.cpp
+  Table.cpp
+  Player.cpp
+  DiceFactory.cpp
+  Dice.cpp
+  DiceGame.cpp
+  Generating Code...
+c:\users\justin\repositories\dicegame\tyrrelljustin_h5g_programmingtest\utility\linkedlist.h(290): warning C4172: returning address of local variable or temporary
+  tyrrellJustin_H5G_ProgrammingTest.vcxproj -> C:\Users\Justin\Repositories\DiceGame\tyrrellJustin_H5G_ProgrammingTest\Debug\tyrrellJustin_H5G_ProgrammingTest.exe

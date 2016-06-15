@@ -142,25 +142,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Bag.h" />
-    <ClInclude Include="DiceGame.h" />
-    <ClInclude Include="Dice\Dice.h" />
-    <ClInclude Include="Dice\DiceFactory.h" />
-    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="DiceGame\Bag.h" />
+    <ClInclude Include="DiceGame\DiceGame.h" />
+    <ClInclude Include="DiceGame\Dice\Dice.h" />
+    <ClInclude Include="DiceGame\Dice\DiceFactory.h" />
+    <ClInclude Include="Utility\LinkedList.h" />
     <ClInclude Include="main.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Table.h" />
-    <ClInclude Include="Utility.h" />
+    <ClInclude Include="DiceGame\Player.h" />
+    <ClInclude Include="DiceGame\Table.h" />
+    <ClInclude Include="Utility\Utility.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bag.cpp" />
-    <ClCompile Include="DiceGame.cpp" />
-    <ClCompile Include="Dice\Dice.cpp" />
-    <ClCompile Include="Dice\DiceFactory.cpp" />
+    <ClCompile Include="DiceGame\Bag.cpp" />
+    <ClCompile Include="DiceGame\DiceGame.cpp" />
+    <ClCompile Include="DiceGame\Dice\Dice.cpp" />
+    <ClCompile Include="DiceGame\Dice\DiceFactory.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Table.cpp" />
-    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="DiceGame\Player.cpp" />
+    <ClCompile Include="DiceGame\Table.cpp" />
+    <ClCompile Include="Utility\Utility.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

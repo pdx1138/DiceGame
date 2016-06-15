@@ -8,7 +8,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include "DiceGame.h"
+#include "DiceGame\DiceGame.h"
 
 using namespace DiceGame;
 

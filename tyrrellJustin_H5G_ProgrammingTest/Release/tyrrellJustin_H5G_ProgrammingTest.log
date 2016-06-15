@@ -1,10 +1,11 @@
 ﻿  Bag.cpp
   DiceGame.cpp
-  Dice.cpp
-  DiceFactory.cpp
   Player.cpp
   Table.cpp
-  Utility.cpp
-Utility.cpp(22): warning C4018: '<': signed/unsigned mismatch
   main.cpp
-LINK : fatal error LNK1104: cannot open file 'C:\Users\Justin\Jobs\High5Games\ProgrammingTest\tyrrellJustin_H5G_ProgrammingTest\Release\tyrrellJustin_H5G_ProgrammingTest.exe'
+  Generating code
+  18 of 151 functions (11.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    23 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  tyrrellJustin_H5G_ProgrammingTest.vcxproj -> C:\Users\Justin\Repositories\DiceGame\tyrrellJustin_H5G_ProgrammingTest\Release\tyrrellJustin_H5G_ProgrammingTest.exe

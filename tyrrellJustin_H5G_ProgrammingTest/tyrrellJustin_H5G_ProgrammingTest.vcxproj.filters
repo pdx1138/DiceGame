@@ -18,28 +18,28 @@
     <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LinkedList.h">
+    <ClInclude Include="Utility\Utility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Dice\Dice.h">
+    <ClInclude Include="DiceGame\Table.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Dice\DiceFactory.h">
+    <ClInclude Include="DiceGame\Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Bag.h">
+    <ClInclude Include="DiceGame\DiceGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Table.h">
+    <ClInclude Include="DiceGame\Bag.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
+    <ClInclude Include="Utility\LinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DiceGame.h">
+    <ClInclude Include="DiceGame\Dice\Dice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Utility.h">
+    <ClInclude Include="DiceGame\Dice\DiceFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,25 +47,25 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Dice\Dice.cpp">
+    <ClCompile Include="Utility\Utility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Dice\DiceFactory.cpp">
+    <ClCompile Include="DiceGame\Table.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Bag.cpp">
+    <ClCompile Include="DiceGame\Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Table.cpp">
+    <ClCompile Include="DiceGame\DiceGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="DiceGame\Bag.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DiceGame.cpp">
+    <ClCompile Include="DiceGame\Dice\Dice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Utility.cpp">
+    <ClCompile Include="DiceGame\Dice\DiceFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
