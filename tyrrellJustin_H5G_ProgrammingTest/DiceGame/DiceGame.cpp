@@ -58,13 +58,16 @@ namespace DiceGame {
 	// Game Class Definitions
 	/////////////////////////////////////////////////	
 
+	// Get the instance of the Game Singleton
+	// If the instance does not exist, create one
 	Game* Game::GetInstance() {
-		if (instance == NULL) {
+		if (instance == nullptr) {
 			instance = new Game();
 		}
 		return instance;
 	}
 
+	// Run the Dice Game until the user chooses to leave
 	int Game::RunDiceGame() {
 		int menuOption = -1;
 
@@ -79,6 +82,7 @@ namespace DiceGame {
 		return 0;
 	}
 
+	// Loop based on user input
 	void Game::GameLoop() {
 		char key = NULL;
 		
@@ -94,7 +98,8 @@ namespace DiceGame {
 		} while (CheckContinue());
 	}
 
-	void Game::AutomatedGameLoop(unsigned int itterations) {
+	// Loop for a set number of iterations
+	void Game::AutomatedGameLoop(unsigned int iterations) {
 		unsigned int count = 0;
 
 		do {
@@ -107,7 +112,7 @@ namespace DiceGame {
 			DrawScreen();
 
 			++count;
-		} while (count < itterations);
+		} while (count < iterations);
 
 	}
 
@@ -161,6 +166,7 @@ namespace DiceGame {
 		recentResults.Append(result);
 	}
 
+	// Record the data and end the game
 	void Game::GameEnd(GameResult* result) {
 		// Set all the values (total score/bet/games) as of this game iteration
 		result->SetToDateValues(instance->player->GetMyTotalScore(), 

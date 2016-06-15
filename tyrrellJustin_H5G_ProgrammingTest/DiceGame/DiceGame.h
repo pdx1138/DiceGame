@@ -54,7 +54,7 @@ namespace DiceGame {
 			static Game* GetInstance();
 			int RunDiceGame();
 			void GameLoop();
-			void AutomatedGameLoop(unsigned int itterations);
+			void AutomatedGameLoop(unsigned int iterations);
 			bool CheckContinue();
 			void PlayAGame();
 			void GameWin(GameResult* result);
