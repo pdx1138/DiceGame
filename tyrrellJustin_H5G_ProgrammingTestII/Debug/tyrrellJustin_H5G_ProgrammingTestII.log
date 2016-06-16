@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\justin\repositories\dicegame\tyrrelljustin_h5g_programmingtestii\main.cpp(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\justin\repositories\dicegame\tyrrelljustin_h5g_programmingtestii\main.cpp(15): warning C4101: 'ch': unreferenced local variable
+c:\users\justin\repositories\dicegame\tyrrelljustin_h5g_programmingtestii\main.cpp(32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\justin\repositories\dicegame\tyrrelljustin_h5g_programmingtestii\main.cpp(35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  tyrrellJustin_H5G_ProgrammingTestII.vcxproj -> C:\Users\Justin\Repositories\DiceGame\tyrrellJustin_H5G_ProgrammingTestII\Debug\tyrrellJustin_H5G_ProgrammingTestII.exe
