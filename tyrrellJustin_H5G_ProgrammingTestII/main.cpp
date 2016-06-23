@@ -29,10 +29,10 @@ void SumStringTest() {
 	char* str3 = (char*)malloc(sizeof(char) * STRING_SIZE);
 
 	memset(str1, 0, STRING_SIZE);
-	strcpy(str1, "85886");
+	strcpy(str1, "85848848484848484886");
 
 	memset(str2, 0, STRING_SIZE);
-	strcpy(str2, "787878");
+	strcpy(str2, "78748484848484848878");
 
 	memset(str3, 0, STRING_SIZE);
 	//strcpy(str3, "");
